@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  /* background-color: black;
+  color: aliceblue; */
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1280px;
+}
+.Navigation-Bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid rgb(190, 181, 181); */
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.Navigation-Bar ul{
+  display: flex ;
+  list-style: none;
+  margin: 0px auto;
+  margin: 16px;
+  gap: 16px;
+ 
+}
+
+.Navigation-Bar ul li:hover{
+  background-color: rgb(190, 181, 181);
+}
+
+button{
+  all: unset;
+  background-color: red;
+  color: aliceblue;
+  font-weight: 500;
+  padding: 6px 16px;
+  height: 32px;
+}
+
+.Main-content{
+  display: flex;
+  height: calc(100vh-72px);
+  align-items: center;
+ 
+}
+
+.Content{
+  display: flex;
+  flex-direction: column;
+}
+
+.Content h1{
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+
+.Content p{
+  font-weight: 600;
+  
+  font-size: 20px;
+  color: gray;
+}
+
+.btn{
+  display: flex;
+  margin-top: 15px;
+  gap: 40px;
+}
+
+.btn-category{
+  background-color: azure;
+  color: gray;
+  border: 2px solid gray;
+}
+
+.shopping-route p{
+  font-weight: bolder;
+  color: blue;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.brand-logo {
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+}
